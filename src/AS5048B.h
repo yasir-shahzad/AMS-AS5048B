@@ -59,7 +59,6 @@ class AS5048B
     int file;
     int adapter_nr;
     char filename[20];
-    int addr;
     char buf[10];
 
     // variables
@@ -81,7 +80,6 @@ class AS5048B
     void setI2cNumber();
     void setAdapter(int);
     void openConnection();
-    void setDeviceAddress(int);
     void setRegister(uint8_t);
 
     // methods
@@ -92,7 +90,6 @@ class AS5048B
     double getExpAvgRawAngle(void);
     void printDebug(void);
 
-    void begin(void);                                    // to init the object, must be called in the setup loop
     void toggleDebug(void);                              // start / stop debug through serial at anytime
     void setClockWise(bool cw = true);                   // set clockwise counting, default is false (native sensor)
     void progRegister(uint8_t regVal);                   // nothing so far - manipulate the OTP register
