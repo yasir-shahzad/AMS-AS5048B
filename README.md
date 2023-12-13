@@ -1,7 +1,3 @@
-# AMS-AS5048B
-Linux Liberary for AMS AS5048B I2C - 14-bit magnetic rotary position sensor
-
-
 &nbsp; <img src="https://github.com/oliexdev/openScale/blob/master/fastlane/metadata/android/en-GB/images/icon.png" alt="openScale logo" height="60"/> &nbsp;AMS-AS5048B [![CI](https://github.com/oliexdev/openScale/actions/workflows/ci.yml/badge.svg)](https://github.com/oliexdev/openScale/actions/workflows/ci.yml)
 [![Translation status](https://hosted.weblate.org/widgets/openscale/-/strings/svg-badge.svg)](https://hosted.weblate.org/engage/openscale/?utm_source=widget)
 =========
