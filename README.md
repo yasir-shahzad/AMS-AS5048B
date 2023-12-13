@@ -2,11 +2,11 @@
 Linux Liberary for AMS AS5048B I2C - 14-bit magnetic rotary position sensor
 
 
-&nbsp; <img src="https://github.com/oliexdev/openScale/blob/master/fastlane/metadata/android/en-GB/images/icon.png" alt="openScale logo" height="60"/> &nbsp;openScale [![CI](https://github.com/oliexdev/openScale/actions/workflows/ci.yml/badge.svg)](https://github.com/oliexdev/openScale/actions/workflows/ci.yml)
+&nbsp; <img src="https://github.com/oliexdev/openScale/blob/master/fastlane/metadata/android/en-GB/images/icon.png" alt="openScale logo" height="60"/> &nbsp;AMS-AS5048B [![CI](https://github.com/oliexdev/openScale/actions/workflows/ci.yml/badge.svg)](https://github.com/oliexdev/openScale/actions/workflows/ci.yml)
 [![Translation status](https://hosted.weblate.org/widgets/openscale/-/strings/svg-badge.svg)](https://hosted.weblate.org/engage/openscale/?utm_source=widget)
 =========
 
-Open-source weight and body metrics tracker, with support for Bluetooth scales
+Linux Liberary for AMS AS5048B I2C - 14-bit magnetic rotary position sensor
 
 <a href="https://f-droid.org/repository/browse/?fdid=com.health.openscale" target="_blank">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
@@ -137,7 +137,7 @@ If you want to help to translate the app in your language please see [here](http
 
 openScale is licensed under the GPL v3, see LICENSE file for full notice.
 
-    Copyright (C) 2014  olie.xdev <olie.xdev@googlemail.com>
+    Copyright (C) 2014  yasir.shahzad <yasirshahzad918@gmail.com>
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
