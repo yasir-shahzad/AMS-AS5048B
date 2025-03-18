@@ -74,23 +74,20 @@ uint16_t AS5048B::readReg16(uint8_t addr) {
       exit(1);
   }
 
-  uint8_t requestResult;
-  uint8_t readArray[2];
-  uint16_t readValue = 0;
-  /* Using SMBus commands */
-  readArray[0] = i2c_smbus_read_byte_data(file, addr);
-  readArray[1] = i2c_smbus_read_byte_data(file, addr);
-  readValue = (((uint16_t)readArray[0]) << 6);
-  readValue += (readArray[1] & 0x3F);
-  if (readArray[0] < 0)
-  {
-      printf("Error While reading I2C data, Error Number: %d", errno);
-      exit(1);
-  }
-  else
-  {
-      return readValue;
-  }
+    uint8_t readArray[2] = {0};
+    uint16_t readValue = 0;
+
+    // Read 2 bytes from the given register address
+    int result = i2c_smbus_read_i2c_block_data(file, address, 2, readArray);
+    if (result < 0) {
+        printf("Error reading I2C register 0x%X, Error Number: %d\n", address, errno);
+        return 0;  // Return 0 on error
+    }
+
+    // Combine MSB and LSB into a 14-bit value
+    readValue = ((uint16_t)readArray[0] << 6) | (readArray[1] & 0x3F);
+    
+    return readValue;
 }
 
 void AS5048B::writeReg(uint8_t addr, uint8_t value)
