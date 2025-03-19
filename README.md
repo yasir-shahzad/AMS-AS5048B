@@ -20,7 +20,7 @@ This repository provides a **Linux library** for interfacing with the **AMS AS50
 ## Installation 🛠️  
 Clone the repository and install dependencies:  
 ```bash
-git clone https://github.com/YOUR_USERNAME/AS5048B-Library.git  
+git clone https://github.com/yasir-shahzad/AS5048B-Library.git  
 cd AS5048B-Library  
 make  
 sudo make install  
