@@ -1,5 +1,4 @@
-# AMS AS5048B - Linux Library for 14-bit Magnetic Rotary Position Sensor
-
+# Linux Library for AMS AS5048B
 [![CI](https://github.com/oliexdev/openScale/actions/workflows/ci.yml/badge.svg)](https://github.com/oliexdev/openScale/actions/workflows/ci.yml)  
 [![Translation Status](https://hosted.weblate.org/widgets/openscale/-/strings/svg-badge.svg)](https://hosted.weblate.org/engage/openscale/?utm_source=widget)  
 
